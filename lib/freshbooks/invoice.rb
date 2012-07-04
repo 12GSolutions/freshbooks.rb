@@ -16,6 +16,7 @@ module FreshBooks
       s.string :p_street1, :p_street2, :p_city, :p_state, :p_country, :p_code
       s.string :return_uri
       s.string :po_number
+      s.string :client_view
     end
     
     actions :list, :get, :create, :update, :delete, :send_by_email, :send_by_snail_mail
