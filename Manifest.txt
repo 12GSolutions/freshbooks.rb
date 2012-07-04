@@ -1,3 +1,4 @@
+History.txt
 LICENSE
 Manifest.txt
 README
